@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Milk Products Store - Derivatives and Uses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        h3 {
+            color: red;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            ul li {
+                margin-bottom: 10px;
+            }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration:  underline;
+            }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Milk Products Store</h1>
+
+    <img src="photo2.jpg" alt="Loading...">
+    <img src="photo3.jpg" alt="loading...">
+    <h3>This is our menue.</h3>
+    <h2>Derivatives of Dairy Products and Their Uses</h2>
+
+    <h3>Milk</h3>
+    <p>
+        Milk is a nutritious dairy product and serves as the base for various derivatives, including:
+    </p>
+    <ul>
+        <li>Yogurt: Fermented milk with a creamy texture and pleasant tangy taste.</li>
+        <li>Butter: A dairy product made by churning fresh or fermented cream.</li>
+        <li>Cheese: A food product made from coagulated and processed milk.</li>
+        <li>Ice Cream: A frozen dessert made by incorporating air into a mixture of milk, cream, sugar, and flavors.</li>
+    </ul>
+
+    <h3>Yogurt</h3>
+    <p>
+        Yogurt is a versatile dairy product that can be used in various ways, such as:
+    </p>
+    <ul>
+        <li>As a breakfast option topped with fresh fruits and granola.</li>
+        <li>As a marinade for tenderizing and flavoring meats.</li>
+        <li>As an ingredient in smoothies and frozen yogurt desserts.</li>
+    </ul>
+
+    <h3>Butter</h3>
+    <p>
+        Butter brings richness and flavor to various culinary creations, including:
+    </p>
+    <ul>
+        <li>As a spread on bread, toast, or pancakes.</li>
+        <li>As an ingredient in baking, adding moisture and flavor to cakes, cookies, and pastries.</li>
+        <li>As a cooking fat for sautéing and frying.</li>
+    </ul>
+
+    <h3>Cheese</h3>
+    <p>
+        Cheese offers a wide range of uses in the culinary world, including:
+    </p>
+    <ul>
+        <li>As a topping for pizzas, pasta dishes, and salads.</li>
+        <li>As an ingredient in sandwiches, wraps, and quesadillas.</li>
+        <li>As a flavorful addition to soups, fondues, and sauces.</li>
+    </ul>
+
+    <h3>Ice Cream</h3>
+    <p>
+        Ice cream is a popular frozen dessert that can be enjoyed in various ways, such as:
+    </p>
+    <ul>
+        <li>As a classic scoop in a cone or bowl with toppings.</li>
+        <li>As a base for creating milkshakes, sundaes, and floats.</li>
+        <li>As an ingredient in homemade desserts like ice cream cakes and sandwiches.</li>
+    </ul>
+
+    <h2> If you encounter any problem, please contact us. </h2>
+    <h3><a href="https://www.facebook.com/abdo.sheta.319?mibextid =LQQJ4d">Click here to contact us</a></h3>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // Set the background black and text white
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
+
+            // Function to apply movement effect
+            function moveText(event) {
+                event.target.style.transform = 'translate(5px, -5px)';
+            }
+
+            // Function to reset text position
+            function resetText(event) {
+                event.target.style.transform = 'translate(0, 0)';
+            }
+
+            // Select all text elements you want to apply the effect to
+            var textElements = document.querySelectorAll('p');
+
+            // Add event listeners to the selected elements
+            textElements.forEach(elem => {
+                elem.style.transition = 'transform 0.3s ease';
+                elem.addEventListener('mouseover', moveText);
+                elem.addEventListener('mouseout', resetText);
+            });
+        });
+        
+    </script>
+</body>
+
+</html>
